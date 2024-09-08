@@ -99,8 +99,6 @@ namespace AnotherRpgMod.Utils
                 limit = 5;
                 if (NPC.downedPlantBoss && limit < 15)
                     limit = 15;
-                if (NPC.downedMoonlord)
-                    return 999;
             }
 
             return Mathf.FloorInt(limit);
